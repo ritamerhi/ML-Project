@@ -10,6 +10,10 @@
 - Could use pretrained models but will still require a lot of data for training, overfitting risk
 - Last resort, will try XGBoost and GRUs before
 
-#### XGBoost
+#### XGBoost (30 mins)
 
 - Imported the dataset and added feature egineering
+- Tried a random model just to understand how to implement XGBoost
+- Implemented hyperparameter tuning by doing bayesian search
+- Initially did k-fold CV before realizing this disrupts the time-order
+- Somewhat good results so far
