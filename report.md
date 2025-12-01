@@ -40,3 +40,10 @@
 - results in plateaus and noise in the dataset
 - to solve this, we had to manually go through the dataset to find where values started fluctuating
 - manually set start and end period. specific start and end periods in [datasets.ipynb](datasets.ipynb)
+- Result : not much noticeable difference. XGBoost was mostly reliable for predicting 30m
+
+
+#### GRU test (30m, 1h, 1d)
+
+- Straightforward approach, hyperparameter tuning using hyperband
+- impressive results for all metrics and time intervals except gold
