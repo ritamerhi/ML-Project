@@ -17,3 +17,5 @@
 - Implemented hyperparameter tuning by doing bayesian search
 - Initially did k-fold CV before realizing this disrupts the time-order
 - Somewhat good results so far
+- If i don't do validation in bayesian search, the best model will be picked based on training results (risk of overfitting)
+- Implemented predefined split indexing to do normal train/validation and prevent k-fold cross validation
