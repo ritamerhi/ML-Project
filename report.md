@@ -19,3 +19,7 @@
 - Somewhat good results so far
 - If i don't do validation in bayesian search, the best model will be picked based on training results (risk of overfitting)
 - Implemented predefined split indexing to do normal train/validation and prevent k-fold cross validation
+- Trained the model on all data before 1 december 2025, then tested and compared results
+- Results are very bad compared to how the model was previously predicting
+- Probably due to the long plateau in silver and gold, and sudden spike in all 3 currencies
+- My hypothesis is no model will be able to perform well after these times, especially for silver and gold
