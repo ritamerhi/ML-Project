@@ -1,0 +1,16 @@
+[2025-12-02 23:47:26] Interval 30m
+[2025-12-02 23:47:26] Downloading data from 2025-10-03 23:47:26.430136 to 2025-12-03
+[2025-12-02 23:47:26] Downloading Gold (GC=F)...
+[2025-12-02 23:47:27] Gold data shape: (1843, 1)
+[2025-12-02 23:47:27] Downloading Silver (SI=F)...
+[2025-12-02 23:47:28] Silver data shape: (1843, 1)
+[2025-12-02 23:47:28] Downloading CAD (CADUSD=X)...
+[2025-12-02 23:47:28] CAD data shape: (1992, 1)
+[2025-12-02 23:47:28] Merged dataframe shape: (2007, 3)
+[2025-12-02 23:47:28] Logging maximum timestamps per asset:
+[2025-12-02 23:47:28] Gold max timestamp: 2025-12-02 21:30:00+00:00
+[2025-12-02 23:47:28] Silver max timestamp: 2025-12-02 21:30:00+00:00
+[2025-12-02 23:47:28] CAD max timestamp: 2025-12-02 21:30:00+00:00
+[2025-12-02 23:47:28] Train size: 1605, Test size: 402
+[2025-12-02 23:47:29] SHA256 Hash of train indices: f54223762806886622699cb167e262fd629156cb1a2ecff43bb4cdf469a1c86b
+[2025-12-02 23:47:29] === END RUN ===
