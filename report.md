@@ -47,3 +47,10 @@
 
 - Straightforward approach, hyperparameter tuning using hyperband
 - impressive results for all metrics and time intervals except gold
+- Something i noticed during hyperparameter tuning : training MAPE metric would suddenly explode, every single time. However during validation, the value would be reasonable. Why??
+
+#### RNN test (30m, 1h, 1d)
+
+- Same implementation as GRU
+- RNN outperformed GRU with predicting 30m and 1d
+- Something i noticed : CAD is so far the easiest currency to predict, with the lowest error
